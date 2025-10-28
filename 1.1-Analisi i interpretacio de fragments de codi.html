@@ -1,0 +1,134 @@
+<!doctype html/>
+<html>
+	<head>
+		<title>1.1 - Anàlisi i interpretació de fragments de codi</title>
+		<style>
+		h1{
+			text-align: center;
+			color: #674ea7;
+			font-size: 30px;
+		}
+		h2{
+			font-size: 25px;
+		}
+		h3{
+			font-size: 20px;
+		}
+		h4{
+			font-size: 15px;
+		}
+		p{
+			text-align: justify;
+		}
+		body {
+			margin-top: 50;
+			margin-left: 250;
+			margin-right: 250;
+			margin-bottom: 50;
+			font-family: "Verdana";
+		}
+		*{
+			background-color: lightgrey;
+		}
+		.blue {
+			color: #4a86e8
+		}
+		</style>
+	</head>
+
+	<body>
+		<h1>1.1 - Anàlisi i interpretació de fragments de codi</h1>
+
+		<div>
+			<h2>Continguts</h2>
+			<ol>
+				<h4><li><a href="#Les dades">Les dades</a></li></h4>
+				<h4><li><a href="#Emmagatzematge de dades">L'emmagatzematge de dades</a></li></h4>
+				<h4><li>Introducció als llenguatges de marques</li></h4>
+				<h4><li>Classificació dels llenguatges de marques</li></h4>
+			</ol>
+		</div>
+		<hr>
+		<div>
+			<ol>
+				<h2 id="Les dades"><li>Les dades</li></h2>
+					<p>
+						Les dades són <strong>representacions d'aspectes del món real</strong>, que s'utilitzen per fer calculs, mostrar-les, organitzar-les, etc.
+						<br>
+						L'objectiu és que posteriorment algú pugui fer coses amb elles, com prendre decisions o generar noves dades.
+					</p>
+
+					<h3><u>Característiques de les dades</u></h3>
+						<h4>A qui van dirigides (Destinataris):</h4>
+							<table cellpadding="10">
+								<thead>
+									<tr style="text-align: center;">
+										<th>Humans</th>
+										<th>Programes o màquines</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr  style="text-align: justify;">
+										<td>Quan les dades estan destinades a éssers humans, sovint necessiten una estructura específica i comprensible.</td>
+										<td>Quan les dades estan destinades a ser processades per programes informàtics, es necessari que estiguin estructurades de manera que siguin fàcilment processables i identificables.</td>
+									</tr>
+									<tr style="text-align: center;">
+										<td><img src="https://cdn-icons-png.flaticon.com/512/2640/2640788.png" width="150px"></td>
+										<td><img src="https://static.vecteezy.com/system/resources/previews/036/584/129/non_2x/3d-illustration-of-software-development-free-png.png" width="150px"></td>
+									</tr>
+								</tbody>
+							</table>
+						<h4>Reutilització de les Dades:</h4>
+							<p>
+								Una vegada recollides les dades, poden ser <strong>reutilitzades en múltiples contextos</strong>, especialment en sectors com la ciència. Per això, <strong>és clau que les dades s'emmagatzemin de manera ordenada, estructurada i amb metadades</strong> (informació que descriu les dades).
+							</p>
+							<img src="https://cdn-icons-png.flaticon.com/512/2857/2857397.png" width="150px" style="display: block; margin: 0 auto;">
+						<h4>Compartició de les Dades:</h4>
+						 <p>
+						 	Amb l'evolució de la tecnologia, <strong>la compartició de dades s'ha tornat més important</strong>. Ara és molt comú que les dades que es generen a una banda dels món es puguin utilitzar a un altre lloc amb temps real, gràcies a Internet. Aquest fet <strong>necessita sistemes d'emmagatzematge i transmissió eficients i segurs</strong>. També, és important <strong>utilitzar estàndarts oberts o formats competibles</strong> que permetin fer aquest viatge sense perdues o errors de comprenció.
+						 </p>
+						 <img src="https://cdn-icons-png.flaticon.com/512/4335/4335149.png" width="150px" style="display: block; margin: 0 auto;">
+				<br>
+				<hr>
+				<h2 id="Emmagatzematge de dades"><li>L'emmagatzematge de dades</li></h2>
+					<p>
+						L'emmagatzematge de dades és un <strong>component clau</strong> en els sistemes informàtics, ja que permet la <strong>representació, manipulació i recuperació d'informació</strong> de manera eficient.
+						<br>
+						<br>
+						Les dades en els ordinador es representen utilitzant el <strong>format binari</strong>, que consisteix en una sèrie de dígits binaris, coneguts com a <strong>bits</strong>, que poden tenir un valor de <strong>0 o 1</strong>. 
+					</p>
+					<h3><u>Classificació de dades</u></h3>
+						<h4>Dades de text:</h4>
+							<table cellpadding="10">
+								<tbody>
+									<tr>
+										<td style="text-align: justify;">
+											Les dades de text són llegibles per humans i estructurades mtjançant codificacions de caràcters, com <strong>ASCII</strong> o <strong>Unicode</strong>. Això vol dir que cada lletra, número o símbol es representa amb un codi específic que després es tradueix a binari.
+										</td>
+										<td style="text-align: center;">
+											<img src="https://cdn-icons-png.flaticon.com/512/3516/3516640.png" width="75px">
+										</td>
+									</tr>
+									<tr>
+										<td style="text-align: justify;">
+											Aquest tipus de dades es troben en documents, correus elecrònics o pàgines web, <strong>on és essencial mantenir la llegibilitat per a les persones</strong>. El format text és <strong>molt flexible i fàcil d'editar</strong>.
+										</td>
+										<td style="text-align: center;">
+											<img src="https://cdn-icons-png.flaticon.com/512/104/104647.png" width="75px">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<br>
+							<img src="..\IMG\Classificació de dades de text.png" width="900px" style="display: block; margin: 0 auto;">
+							<br>
+						<h4>Dades binàries:</h4>
+							<p>
+								Les dades binàries són dades que no segueixen una estructura definida que pugui ser fàcilment llegida per humans. <strong>Inclouen fitxers com imatges, vídeos, àudio, i altres formats multimèdia</strong>, 
+							</p>
+			</ol>
+		</div>
+	</body>
+
+
+</html>
