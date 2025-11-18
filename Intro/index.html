@@ -1,0 +1,109 @@
+<!doctype html/>
+<html>
+	<head>
+		<title>INICI</title>
+		<style>
+		
+			body {
+				font-family: "verdana", "arial", "sans-serif";
+				margin: 0;
+				background-color: aliceblue;
+			}	
+
+			/*header*/
+			.headerContainer {
+				display: grid;
+				grid-template-columns: auto 1fr auto;
+				grid-template-rows: auto;
+				grid-template-areas:
+					"tit nav logo";
+				text-align: center;
+				background-color: #9370d8;
+			}
+			.headerContainer h1 {
+				grid-area: tit;
+				font-size: 15px;
+				color: white;
+				align-self: center;
+				text-align: left;
+				padding-left: 30px;
+			}
+			.headerContainer p {
+				grid-area: nav;
+				align-self: center;
+				text-align: center;
+				margin: 0px;
+			}
+			.headerContainer img {
+				grid-area: logo;
+				align-self: center;
+				align-items: right;
+				padding-right: 30px;
+			}
+
+			.navButton {
+				color: white;
+				font-weight: bold;
+				background-color: transparent;
+				border: none;
+				cursor: pointer;
+				text-decoration: none;
+				padding: 20px 10px;
+			}
+			button:hover{
+				transition-duration: 1s;
+				background-color: rebeccapurple;
+			}
+
+			.subheaderContainer {
+				display: grid;
+				grid-template-columns: 1fr 2fr;
+				grid-template-rows: 300px auto;
+				grid-template-areas: 
+					"tit .";
+				background-image: url(../IMG/imgHeader2.jpg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.subheaderContainer h1 {
+				grid-area: tit;
+				color: white;
+				align-self: center;
+				text-align: center;
+				font-size: 50px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="headerContainer">
+				<h1>Apunts LMG</h1>
+				<p>
+					<button class="navButton"><a href="../Intro/index.html" class="navButton">INICI</a></button>
+					<button class="navButton"><a href="../Curriculum/index.html" class="navButton">CV</a></button>
+					<button class="navButton"><a href="../Tema 1/index.html" class="navButton">TEMA 1</a></button>
+					<button class="navButton"><a href="../Tema2/index.html" class="navButton">TEMA 2</a></button>
+				</p>
+				<img src="../IMG/LogoFP.png" alt="Logo IFP" width="50px"/>
+			</div>
+			<div class="subheaderContainer">
+				<h1>
+					INICI
+				</h1>
+			</div>
+		</header>
+		
+		<section>
+
+			<h2>Continguts</h2>
+			<ol>
+				<li><h4>Unitat 1</h4></li>
+				<p class="blue"><a href = "1.1-Analisi i interpretacio de fragments de codi.html">1.1 - Anàlisi i interpretació de fragments de codi</a></p>
+
+				<li><h4>Unitat 2</h4></li>
+			</ol>
+		</section>
+	</body>
+</html>

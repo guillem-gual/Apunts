@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Currículum Vitae</title>
+		<style>
+			body {
+				font-family: "verdana", "arial", "sans-serif";
+				margin: 0;
+				background-color: aliceblue;
+			}	
+
+			/*header*/
+			
+			.headerContainer {
+				display: grid;
+				grid-template-columns: auto 1fr auto;
+				grid-template-rows: auto;
+				grid-template-areas:
+					"tit nav logo";
+				text-align: center;
+				background-color: #9370d8;
+			}
+			.headerContainer h1 {
+				grid-area: tit;
+				font-size: 15px;
+				color: white;
+				align-self: center;
+				text-align: left;
+				padding-left: 30px;
+			}
+			.headerContainer p {
+				grid-area: nav;
+				align-self: center;
+				text-align: center;
+				margin: 0px;
+			}
+			.headerContainer img {
+				grid-area: logo;
+				align-self: center;
+				align-items: right;
+				padding-right: 30px;
+			}
+
+			.navButton {
+				color: white;
+				font-weight: bold;
+				background-color: transparent;
+				border: none;
+				cursor: pointer;
+				text-decoration: none;
+				padding: 20px 10px;
+			}
+			button:hover{
+				transition-duration: 1s;
+				background-color: rebeccapurple;
+			}
+
+			.subheaderContainer {
+				display: grid;
+				grid-template-columns: 1fr 2fr;
+				grid-template-rows: 300px auto;
+				grid-template-areas: 
+					"tit .";
+				background-image: url(../IMG/imgHeader2.jpg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.subheaderContainer h1 {
+				grid-area: tit;
+				color: white;
+				align-self: center;
+				text-align: center;
+				font-size: 50px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+			<div class="headerContainer">
+				<h1>Apunts LMG</h1>
+				<p>
+					<button class="navButton"><a href="../Intro/index.html" class="navButton">INICI</a></button>
+					<button class="navButton"><a href="../Curriculum/index.html" class="navButton">CV</a></button>
+					<button class="navButton"><a href="../Tema 1/index.html" class="navButton">TEMA 1</a></button>
+					<button class="navButton"><a href="../Tema2/index.html" class="navButton">TEMA 2</a></button>
+				</p>
+				<img src="../IMG/LogoFP.png" alt="Logo IFP" width="50px"/>
+			</div>
+			<div class="subheaderContainer">
+				<h1>
+					CURRÍCULUM VITAE
+				</h1>
+			</div>
+		</header>
+
+		<h1>Currículum Vitae (CV)</h1>
+
+		<img src="fotoDNI.jpg" style="width:10%">
+			<h4>Informació Personal</h4>
+				<p>Guillem Gual Socias<br>644 80 17 59<br>guillemgual2006@gmail.com<br>Caimari, Selva</p>
+			<h4>Resum Professional</h4>
+				<p>Soc un estudiant de 1r any del Grau Superior de Desenvolupament d'Aplicacións Multiplataforma, al qual he accedit a traves de Batxiller. Professionalment he fet 1 mes d'Ajundant de Monitor amb nins de 3 a 6 anys, on he apres moltes coses sobre els nins i l'educació, i despres d'això hem vaig treure el títol de Monitor de Temps Lliure
+			<h4>Experiència Laboral</h4>
+				<ul>
+					<li>Passes, Ajudant de Montior, 06/2025 - 07/2025</li>
+				</ul>
+			<h4>Educació i Formació</h4>
+				<ul>
+					<li>Ies Inca, Batxiller, 20/05/2025</li>
+					<li>Sa Llosa Petita, Monitor de Temps Lliure, 28/09/2025</li>
+				</ul>
+			<h4>Habilitats Tècniques</h4>
+				<ul>
+					<li>Coneixement bàsic d'HTML</li>
+				</ul>
+			<h4>Habilitats</h4>
+				<ul>
+					<li>Se dur a terme les baralles i discusions amb infants</li>
+					<li>Se escoltar atentament</li>
+					<li>Se treballar en equip</li>
+					<li>Tenc un gran compromis</li>
+				</ul>
+			<h4>Idiomes</h4>
+				<ul>
+					<li>Catellà (Natiu)</li>
+					<li>Català (B2)</li>
+					<li>Angles (B1)</li>
+				</ul>
+			<h4>Enllaços d'Interes</h4>
+				<a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.18146679037_asid.140850334975_crid.694860685343_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9220601" target="_blank">Linkedin</a>
+	</body>
+
+</html>
