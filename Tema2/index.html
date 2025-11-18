@@ -6,11 +6,8 @@
 			body{
 				font-family: "verdana", "arial", "sans-serif";
 				margin: 0;
-				background-color: aliceblue;
+				background-color:#302158;
 
-			}
-			section{
-				padding-inline: 100px;
 			}
 			h1{
 				text-align: center;
@@ -91,14 +88,6 @@
 				font-size: 50px;
 			}
 
-			/*continguts*/
-			.continguts{
-				color: cornflowerblue;
-				text-decoration: none;
-			}
-			.continguts:hover{
-				color: #9370d8;
-			}
 
 			/*elecció*/
 			section{
@@ -107,11 +96,23 @@
 				grid-template-rows: auto auto;
 				grid-template-areas:
 					"html1 html2";
-				
 			}
-			.html1{
-				grid-area: html1;
-				
+			.button{
+				text-align: center;
+				background-color:#9370d8;
+				color:white;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 70px;
+				margin: 20px;
+				border-radius: 25px;
+				border: #674ea7 solid;
+				padding: 85px;
+			}
+			.button:hover{
+				background-color: #674ea7;
+				border: #9370d8 solid;
+				transition: 100ms;
 			}
 		</style>
 	</head>
@@ -135,8 +136,8 @@
 			</div>
 		</header>
 		<section>
-			<button class="html1">HTML BÀSIC</button>
-			<button>HTML AVANÇAT</button>
+			<a href="HTML Basic/index.html" class="button"> HTML<br>BÀSIC</a>
+			<a href="" class="button">HTML<br>AVANÇAT</a>
 		</section>
     </body>
 </html>
